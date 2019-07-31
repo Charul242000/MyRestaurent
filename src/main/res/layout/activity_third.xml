@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ThirdActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/junkfood" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="Order your food here"
+
+                android:textSize="40dp"
+                android:textStyle="italic" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="252dp"
+                android:layout_marginEnd="156dp"
+                android:layout_marginRight="156dp"
+                android:background="@drawable/pizza"
+                android:text="Pizza"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:background="@drawable/maggi"
+                android:text="Maggie"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="156dp"
+                android:layout_marginRight="156dp"
+                android:background="@drawable/pasta"
+                android:text="Pasta"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/burger"
+                android:text="Burger"
+                android:textColor="@android:color/white"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="132dp"
+                android:layout_marginRight="132dp"
+                android:text="Matar paneer"
+                android:textSize="27dp"
+                android:background="@drawable/matarpaneer"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox6"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="156dp"
+                android:layout_marginRight="156dp"
+                android:text="Kaju curry"
+                android:textSize="27dp"
+                android:background="@drawable/kajucurry"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+            <CheckBox
+                android:id="@+id/checkbox7"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:text="Dal fry"
+                android:textSize="27dp"
+                android:background="@drawable/dalfry"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:text="Rice"
+                android:textSize="27dp"
+                android:background="@drawable/rice"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="378dp"
+                android:layout_height="177dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:text="Tava Roti"
+                android:textSize="27dp"
+                android:background="@drawable/tavaroti"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="172dp"
+                android:layout_marginRight="172dp"
+                android:onClick="onPlacingOrder"
+                android:text="Place order"
+                android:textSize="27dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
